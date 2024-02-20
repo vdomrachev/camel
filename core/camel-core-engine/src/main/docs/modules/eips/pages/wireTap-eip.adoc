@@ -19,6 +19,10 @@ image::eip/WireTap.gif[image]
 include::partial$eip-options.adoc[]
 // eip options: END
 
+// eip exchangeProperties: START
+include::partial$eip-exchangeProperties.adoc[]
+// eip exchangeProperties: END
+
 == Wire Tap
 
 Camel's Wire Tap will copy the original

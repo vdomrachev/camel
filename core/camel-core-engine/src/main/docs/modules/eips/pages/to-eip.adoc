@@ -29,6 +29,10 @@ The To and xref:toD-eip.adoc[ToD] EIPs are the most common patterns to use in Ca
 include::partial$eip-options.adoc[]
 // eip options: END
 
+// eip exchangeProperties: START
+include::partial$eip-exchangeProperties.adoc[]
+// eip exchangeProperties: END
+
 === Different between To and ToD
 
 The `to` is used for sending messages to a static xref:message-endpoint.adoc[endpoint].

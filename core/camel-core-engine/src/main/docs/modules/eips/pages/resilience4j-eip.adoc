@@ -17,6 +17,10 @@ The Resilience4j EIP supports 2 options which are listed below:
 |===
 // eip options: END
 
+// eip exchangeProperties: START
+include::partial$eip-exchangeProperties.adoc[]
+// eip exchangeProperties: END
+
 See xref:resilience4jConfiguration-eip.adoc[Resilience4j Configuration] for all the configuration options
 on Resilience xref:circuitBreaker-eip.adoc[Circuit Breaker].
 

@@ -20,6 +20,10 @@ image::eip/ContentBasedRouter.gif[image]
 include::partial$eip-options.adoc[]
 // eip options: END
 
+// eip exchangeProperties: START
+include::partial$eip-exchangeProperties.adoc[]
+// eip exchangeProperties: END
+
 == Example
 
 The Camel xref:languages:simple-language.adoc[Simple] language

@@ -20,6 +20,10 @@ In Camel this is implemented as the Threads EIP.
 include::partial$eip-options.adoc[]
 // eip options: END
 
+// eip exchangeProperties: START
+include::partial$eip-exchangeProperties.adoc[]
+// eip exchangeProperties: END
+
 == Using Threads EIP
 
 The example below will add a Thread pool with a pool size of 5 threads before sending to mock:result.

@@ -37,6 +37,10 @@ NOTE: This page documents the Enrich EIP.
 include::partial$eip-options.adoc[]
 // eip options: END
 
+// eip exchangeProperties: START
+include::partial$eip-exchangeProperties.adoc[]
+// eip exchangeProperties: END
+
 
 == Content enrichment using Enrich EIP
 

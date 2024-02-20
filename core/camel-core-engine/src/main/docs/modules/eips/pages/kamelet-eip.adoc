@@ -68,6 +68,10 @@ When calling a Kamelet you may just refer to the name (template id) of the Kamel
 include::partial$eip-options.adoc[]
 // eip options: END
 
+// eip exchangeProperties: START
+include::partial$eip-exchangeProperties.adoc[]
+// eip exchangeProperties: END
+
 == Using Kamelet EIP
 
 [source,java]

@@ -15,6 +15,10 @@ based on pattern syntax.
 include::partial$eip-options.adoc[]
 // eip options: END
 
+// eip exchangeProperties: START
+include::partial$eip-exchangeProperties.adoc[]
+// eip exchangeProperties: END
+
 == Remove Properties by pattern
 
 The Remove Properties EIP supports pattern

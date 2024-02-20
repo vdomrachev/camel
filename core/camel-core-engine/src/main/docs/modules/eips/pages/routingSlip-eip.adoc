@@ -22,6 +22,10 @@ Attach a Routing Slip to each message, specifying the sequence of processing ste
 include::partial$eip-options.adoc[]
 // eip options: END
 
+// eip exchangeProperties: START
+include::partial$eip-exchangeProperties.adoc[]
+// eip exchangeProperties: END
+
 TIP: See the `cacheSize` option for more details on _how much cache_ to use depending on how many or few unique endpoints are used.
 
 == Exchange properties

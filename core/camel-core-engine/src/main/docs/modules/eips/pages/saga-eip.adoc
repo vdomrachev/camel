@@ -33,6 +33,10 @@ Compensating actions can be declared in Camel routes using the Java or XML DSL a
 include::partial$eip-options.adoc[]
 // eip options: END
 
+// eip exchangeProperties: START
+include::partial$eip-exchangeProperties.adoc[]
+// eip exchangeProperties: END
+
 == Exchange properties
 
 The following exchange properties are set on each `Exchange` participating in a Saga (normal actions, compensating actions and completions):

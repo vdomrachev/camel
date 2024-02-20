@@ -30,6 +30,10 @@ This page is documenting the first approach by using Set Body EIP.
 include::partial$eip-options.adoc[]
 // eip options: END
 
+// eip exchangeProperties: START
+include::partial$eip-exchangeProperties.adoc[]
+// eip exchangeProperties: END
+
 == Examples
 
 === Using Set Body EIP

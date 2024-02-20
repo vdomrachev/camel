@@ -20,6 +20,10 @@ The http://www.enterpriseintegrationpatterns.com/patterns/messaging/Sequencer.ht
 include::partial$eip-options.adoc[]
 // eip options: END
 
+// eip exchangeProperties: START
+include::partial$eip-exchangeProperties.adoc[]
+// eip exchangeProperties: END
+
 == Exchange properties
 
 The following exchange properties are set on each `Exchange` that are split:

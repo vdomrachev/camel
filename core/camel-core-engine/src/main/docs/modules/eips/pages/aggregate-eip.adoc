@@ -28,6 +28,10 @@ Messages with the same correlation key is aggregated together, using an `Aggrega
 include::partial$eip-options.adoc[]
 // eip options: END
 
+// eip exchangeProperties: START
+include::partial$eip-exchangeProperties.adoc[]
+// eip exchangeProperties: END
+
 == Worker pools
 
 The aggregate EIP will always use a worker pool, that is used to process all the outgoing messages from the aggregator.

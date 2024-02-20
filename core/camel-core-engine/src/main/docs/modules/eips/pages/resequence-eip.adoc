@@ -26,6 +26,10 @@ can easily be re-ordered by a message header or another piece of the message.
 include::partial$eip-options.adoc[]
 // eip options: END
 
+// eip exchangeProperties: START
+include::partial$eip-exchangeProperties.adoc[]
+// eip exchangeProperties: END
+
 Camel supports two re-sequencing algorithms:
 
 * xref:batchConfig-eip.adoc[Batch Resequencing] - *Default mode*: collects messages into a batch, sorts the messages and sends them to their output.
