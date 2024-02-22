@@ -47,6 +47,7 @@ public interface Route extends RuntimeConfiguration {
     String NODE_PREFIX_ID_PROPERTY = "nodePrefixId";
     String REST_PROPERTY = "rest";
     String TEMPLATE_PROPERTY = "template";
+    String KAMELET_PROPERTY = "kamelet";
     String DESCRIPTION_PROPERTY = "description";
     String CONFIGURATION_ID_PROPERTY = "configurationId";
     String SUPERVISED = "supervised";
