@@ -123,7 +123,7 @@
         <module>camel-dynamic-router</module>
         <module>camel-ehcache</module>
         <module>camel-elasticsearch</module>
-        <module>camel-elasticsearch-rest-client</module>
+<!--        <module>camel-elasticsearch-rest-client</module>-->
         <module>camel-elytron</module>
         <module>camel-etcd3</module>
         <module>camel-exec</module>
@@ -306,7 +306,7 @@
         <module>camel-univocity-parsers</module>
         <module>camel-velocity</module>
         <module>camel-vertx</module>
-        <module>camel-wal</module>
+<!--        <module>camel-wal</module>-->
         <module>camel-wasm</module>
         <module>camel-weather</module>
         <module>camel-web3j</module>

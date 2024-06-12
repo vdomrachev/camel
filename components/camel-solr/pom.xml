@@ -114,27 +114,26 @@
         <dependency>
             <groupId>com.google.protobuf</groupId>
             <artifactId>protobuf-java</artifactId>
-            <version>${protobuf-version}</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.apache.solr</groupId>
-            <artifactId>solr-cell</artifactId>
-            <version>${solr-version}</version>
-            <scope>test</scope>
-            <exclusions>
-                <!-- exclude rome 0.9 which is not a valid Maven artifact -->
-                <!-- rome is not a needed dependency -->
-                <exclusion>
-                    <groupId>rome</groupId>
-                    <artifactId>rome</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>jdk.tools</groupId>
-                    <artifactId>jdk.tools</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.apache.solr</groupId>-->
+<!--            <artifactId>solr-cell</artifactId>-->
+<!--            <version>${solr-version}</version>-->
+<!--            <scope>test</scope>-->
+<!--            <exclusions>-->
+<!--                 exclude rome 0.9 which is not a valid Maven artifact -->
+<!--                 rome is not a needed dependency -->
+<!--                <exclusion>-->
+<!--                    <groupId>rome</groupId>-->
+<!--                    <artifactId>rome</artifactId>-->
+<!--                </exclusion>-->
+<!--                <exclusion>-->
+<!--                    <groupId>jdk.tools</groupId>-->
+<!--                    <artifactId>jdk.tools</artifactId>-->
+<!--                </exclusion>-->
+<!--            </exclusions>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-server</artifactId>
