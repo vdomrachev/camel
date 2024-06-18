@@ -1808,9 +1808,9 @@
        in Solr's conf/xslt directory.  Changes to xslt files are checked for
        every xsltCacheLifetimeSeconds.  
     -->
-  <queryResponseWriter name="xslt" class="solr.XSLTResponseWriter">
-    <int name="xsltCacheLifetimeSeconds">5</int>
-  </queryResponseWriter>
+<!--   <queryResponseWriter name="xslt" class="solr.XSLTResponseWriter"> -->
+<!--     <int name="xsltCacheLifetimeSeconds">5</int> -->
+<!--   </queryResponseWriter> -->
 
   <!-- Query Parsers
 
