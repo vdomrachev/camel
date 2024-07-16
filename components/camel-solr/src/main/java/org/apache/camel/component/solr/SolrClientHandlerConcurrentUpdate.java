@@ -31,8 +31,8 @@ public class SolrClientHandlerConcurrentUpdate extends SolrClientHandler {
         if (solrConfiguration.getConnectionTimeout() != null) {
             builder.withConnectionTimeout(solrConfiguration.getConnectionTimeout());
         }
-        if (solrConfiguration.getSoTimeout() != null) {
-            builder.withSocketTimeout(solrConfiguration.getSoTimeout());
+        if (solrConfiguration.getIdleTimeout() != null) {
+            builder.withSocketTimeout(solrConfiguration.getIdleTimeout());
         }
         if (solrConfiguration.getHttpClient() != null) {
             builder.withHttpClient(solrConfiguration.getHttpClient());
